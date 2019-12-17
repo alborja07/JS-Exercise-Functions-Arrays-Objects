@@ -256,9 +256,9 @@ function getOlderCars(inventory, max) {
             carYearsMax.push(inventory[x]);
         }
     }
-    if (carYearsMax.length === inventory.length) {
-        return inventory;
-    }
+    // if (carYearsMax.length === inventory.length) {
+    //     return inventory;
+    // }
     return carYearsMax;
 }
 
