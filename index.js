@@ -253,7 +253,7 @@ function getOlderCars(inventory, max) {
 
     for (let x = 0; x < inventory.length; x++) {
         if (max >= inventory[x].car_year) {
-            carYearsMax.push(inventory[x].car_year);
+            carYearsMax.push(inventory[x]);
         }
     }
     if (carYearsMax.length === inventory.length) {
